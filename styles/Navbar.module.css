@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--primary-text-color);
+}
+
+.navItem {
+  color: var(--primary-text-color);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1rem;
+}
